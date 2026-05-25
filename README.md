@@ -75,7 +75,7 @@ If a company has **public API documentation or GitHub repos**, mark them as **AU
 ## 🔧 Architecture
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nujovich/hermes-mcp-lead-gen/master/assets/architecture.png" alt="Architecture Diagram" width="700"/>
+  <img width="1265" height="1095" alt="image" src="https://github.com/user-attachments/assets/03b7ebe0-9d2e-49c8-a48a-f90b8cbbbcb0" />
 </p>
 
 ---
