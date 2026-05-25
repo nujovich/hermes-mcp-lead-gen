@@ -13,7 +13,7 @@
       <img src="https://img.shields.io/badge/Hermes%20Agent-Docs-FFD700?style=for-the-badge" alt="Hermes Agent Docs"/>
     </a>
     <a href="https://nadiaujovich.dev">
-      <img src="https://img.shields.io/badge/By-Mermelada%20Tech-0D7377?style=for-the-badge" alt="Nadia Ujovich"/>
+      <img src="https://img.shields.io/badge/By-Nadia%20Ujovich-0D7377?style=for-the-badge" alt="Nadia Ujovich"/>
     </a>
   </p>
 </div>
@@ -74,41 +74,12 @@ If a company has **public API documentation or GitHub repos**, mark them as **AU
 
 ## 🔧 Architecture
 
-```
-┌─────────────────────────────────────────────────────┐
-│              Hermes Agent Scheduler                  │
-│             (cron job · daily at 10 AM)              │
-└──────────────────────┬──────────────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────────────┐
-│           Parallel Research Tasks                    │
-│  ┌──────────┐  ┌──────────┐  ┌──────────────────┐  │
-│  │ LinkedIn │  │  Reddit  │  │ GitHub/Product   │  │
-│  │ Research │  │ Research │  │  Hunt/Blogs      │  │
-│  └────┬─────┘  └────┬─────┘  └───────┬──────────┘  │
-└───────┼──────────────┼────────────────┼─────────────┘
-        ▼              ▼                ▼
-┌─────────────────────────────────────────────────────┐
-│            MCP Readiness Scoring                     │
-│         (13-point checklist evaluation)              │
-└──────────────────────┬──────────────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────────────┐
-│           Pre-Audit (for high-scorers)               │
-│  ┌──────────┐  ┌──────────┐  ┌──────────────────┐  │
-│  │API Docs  │  │  GitHub  │  │  MCP Tool        │  │
-│  │Analysis  │  │  Repos   │  │  Identification  │  │
-│  └──────────┘  └──────────┘  └──────────────────┘  │
-└──────────────────────┬──────────────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────────────┐
-│          Email Report Delivery                       │
-│  (Company name, score, contact, MCP tools)          │
-└─────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nujovich/hermes-mcp-lead-gen/main/assets/architecture.png" alt="Architecture Diagram" width="700"/>
+</p>
 
 ---
+
 
 ## 📋 Real Results: Pre-Audited Companies
 
