@@ -12,8 +12,8 @@
     <a href="https://hermes-agent.nousresearch.com">
       <img src="https://img.shields.io/badge/Hermes%20Agent-Docs-FFD700?style=for-the-badge" alt="Hermes Agent Docs"/>
     </a>
-    <a href="https://mermelada.tech">
-      <img src="https://img.shields.io/badge/By-Mermelada%20Tech-0D7377?style=for-the-badge" alt="Mermelada Tech"/>
+    <a href="https://nadiaujovich.dev">
+      <img src="https://img.shields.io/badge/By-Mermelada%20Tech-0D7377?style=for-the-badge" alt="Nadia Ujovich"/>
     </a>
   </p>
 </div>
@@ -181,7 +181,7 @@ hermes cron create \
 
 ## 📝 License
 
-MIT — Built with [Hermes Agent](https://hermes-agent.nousresearch.com) by [Mermelada Tech](https://mermelada.tech)
+MIT — Built with [Hermes Agent](https://hermes-agent.nousresearch.com) by [Nadia Ujovich](https://nadiaujovich.dev)
 
 <div align="center">
   <br/>
