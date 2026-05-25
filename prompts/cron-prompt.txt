@@ -1,0 +1,27 @@
+HERMES AGENT CRON JOB — MCP Lead Generation & Pre-Audit
+Schedule: Daily at 10:00 AM
+
+This prompt instructs Hermes Agent to research SMEs with systems
+fragmentation, score them on MCP readiness (13-pt checklist),
+pre-audit their public APIs, and email a structured report.
+
+=== FULL PROMPT (self-contained, in Spanish) ===
+
+Generate and email a MCP Lead Generation Report to nujovich@gmail.com
+daily at 10:00 AM. ALL content in SPANISH.
+
+TASK:
+Research 3-5 SMEs with 5+ SaaS tools, legacy APIs, or SaaS sprawl.
+Score each on 13-point MCP Readiness Checklist.
+For high-scorers, pre-audit public API docs and GitHub repos.
+
+RESEARCH SOURCES:
+- LinkedIn (tech stack, API integration, tool fatigue posts)
+- Reddit r/SaaS, r/smallbusiness, r/Entrepreneur, r/startups
+- Tech blogs, Product Hunt, GitHub repos
+
+OUTPUT FORMAT:
+Plain text via himalaya template send to nujovich@gmail.com
+See prompts/mcp-lead-scoring.md for scoring reference.
+
+Full prompt is managed as a Hermes Agent cron job prompt.
