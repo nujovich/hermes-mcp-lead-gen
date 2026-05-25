@@ -1,0 +1,28 @@
+═══════════════════════════════════════════════
+🔌 INFORME DIARIO - PROSPECTOS MCP AUDIT
+Fecha: 25/05/2026
+═══════════════════════════════════════════════
+
+1. AUDIT NOW — Cobre (ex Pagos)
+   Score: 9/13 | HIGH
+   Web: https://www.cobre.com/
+   LinkedIn: https://linkedin.com/company/cobre-co/
+   ~50 REST endpoints · 18 categories
+   5 MCP tools identified
+
+2. HIGH — Factorial HR
+   Score: 8/13 | HIGH
+   Web: https://factorial.es/
+   LinkedIn: https://linkedin.com/company/factorialhr/
+   API Docs: https://developer.factorialhr.com/
+
+3. WARM — Truora
+   Score: 7/13 | WARM
+   Web: https://www.truora.com/
+   API Docs: https://docs.truora.com/
+   ~120 endpoints · 5 API families
+   5 MCP tools identified
+
+═══════════════════════════════════════════════
+Total: 3 prospects · 2 AUDIT NOW · 2 HIGH · 1 WARM
+═══════════════════════════════════════════════
